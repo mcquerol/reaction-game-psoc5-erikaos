@@ -1,0 +1,27 @@
+--------------- Rebuild Started: 11/28/2021 01:56:55 Project: main.c, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\LabBoard -I.\source\bsw\Services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+source\asw\main.c:22:11: error: expected declaration specifiers or '...' before 'time'
+ int srand(time(NULL));
+           ^
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_irq.inc:96:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:137,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from source\asw\main.c:12:
+source\asw\main.c: In function 'main':
+Generated_Source\PSoC5/ErikaOS_1_cortex_mx_ee_irq.inc:182:6: error: static declaration of 'ISR2_isr_Button' follows non-static declaration
+ void ISR2_ ## f(void)
+      ^
+source\asw\main.c:157:1: note: in expansion of macro 'ISR2'
+ ISR2(isr_Button)
+ ^
+Generated_Source\PSoC5/ErikaOS_1_cortex_mx_ee_irq.inc:174:6: note: previous declaration of 'ISR2_isr_Button' was here
+ void ISR2_ ## f(void);  \
+      ^
+source\asw\main.c:157:1: note: in expansion of macro 'ISR2'
+ ISR2(isr_Button)
+ ^
+source\asw\main.c:160:1: error: expected declaration or statement at end of input
+ }
+ ^
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Rebuild Failed: 11/28/2021 01:56:55 ---------------
