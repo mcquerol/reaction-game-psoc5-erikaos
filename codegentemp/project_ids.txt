@@ -1,0 +1,6 @@
+C:\Users\Mateo C. Querol\Desktop\reaction_game_erika.cydsn\reaction_game_erika.cyprj|5af0e7df-d4b1-4194-8433-fdd39c28551f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|63b24e05-7c7e-4cdf-80d5-a0514df67a55
+C:\Users\Mateo C. Querol\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|63da5d3e-fd7c-4d77-9cb8-4f415424230d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|634f4596-6415-4e0b-89ef-f8074a0dbfad
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4cd9e6ee-f822-423e-8c85-94f8b57788c4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|596e5921-b7df-48fb-b480-39506f80061b
