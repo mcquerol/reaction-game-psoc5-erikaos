@@ -19,6 +19,6 @@
 # Specify that Pawn files should be excluded
 *.pwn linguist-vendored
 
-# If you want to specify other languages you use:
-*.html linguist-language=HTML
-*.cs linguist-language=C#
+# Exclude Assembly files
+*.asm linguist-vendored
+*.s linguist-vendored
