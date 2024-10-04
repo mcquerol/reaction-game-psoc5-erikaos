@@ -1,26 +1,23 @@
-# Specify that .c files are C
+# Include C language files
 *.c linguist-language=C
-
-# Specify that .h files are C/C++ headers
 *.h linguist-language=C
 
-# Specify that .html files are HTML
+# Include HTML language files
 *.html linguist-language=HTML
 
 # Exclude all other languages from language stats
-*.cpp linguist-vendored
-*.o linguist-vendored
-*.obj linguist-vendored
-*.elf linguist-vendored
-*.s linguist-vendored
-*.asm linguist-vendored
-*.exe linguist-vendored
-*.dll linguist-vendored
-*.lib linguist-vendored
-*.pwn linguist-vendored
+*.cpp linguist-vendored   # C++
+*.o linguist-vendored      # Object files
+*.obj linguist-vendored    # Object files
+*.elf linguist-vendored    # Executables
+*.s linguist-vendored      # Assembly
+*.asm linguist-vendored     # Assembly
+*.exe linguist-vendored    # Executables
+*.dll linguist-vendored    # DLLs
+*.lib linguist-vendored    # Libraries
+*.pwn linguist-vendored     # Pawn files
 
-# Add other unwanted file types as needed
-# For example, if there are any unwanted C# or Assembly files, also add their extensions:
-*.cs linguist-vendored
-*.py linguist-vendored  # If Python files are present and you want to exclude them
-*.mat linguist-vendored  # If MATLAB files are present and you want to exclude them
+# Exclude any additional unwanted file types
+*.py linguist-vendored     # Python files, if applicable
+*.m linguist-vendored      # MATLAB files, if applicable
+*.cs linguist-vendored     # C# files, if applicable
