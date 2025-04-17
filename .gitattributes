@@ -29,3 +29,5 @@
 # Optional cleanup
 *.html linguist-generated
 *.cs linguist-generated
+**/Generated_Source/** linguist-generated
+**/codegentemp/** linguist-generated
