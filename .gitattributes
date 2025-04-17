@@ -26,11 +26,12 @@
 *.md linguist-documentation
 *.svg linguist-vendored
 
-/Generated_Source/** linguist-generated
-codegentemp/**     linguist-generated
-TopDesign/**       linguist-generated
-CortexM3/**        linguist-generated
-ErikaOS_v2_5_3/**  linguist-generated
+# Auto-generated folders
+Generated_Source/** linguist-generated
+codegentemp/** linguist-generated
+TopDesign/** linguist-generated
+CortexM3/** linguist-generated
+ErikaOS_v2_5_3/** linguist-generated
 
 # Hide other noisy files
 *.cpp linguist-vendored
