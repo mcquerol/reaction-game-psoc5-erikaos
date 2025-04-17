@@ -1,23 +1,46 @@
-# Include C language files
-*.c linguist-language=C
-*.h linguist-language=C
+# Hide assembly files (unless you specifically wrote them)
+*.s linguist-vendored
+*.asm linguist-vendored
 
-# Include HTML language files
-*.html linguist-language=HTML
+# Hide C++
+*.cpp linguist-vendored
+*.hpp linguist-vendored
+*.cc linguist-vendored
 
-# Exclude all other languages from language stats
-*.cpp linguist-vendored   # C++
-*.o linguist-vendored      # Object files
-*.obj linguist-vendored    # Object files
-*.elf linguist-vendored    # Executables
-*.s linguist-vendored      # Assembly
-*.asm linguist-vendored     # Assembly
-*.exe linguist-vendored    # Executables
-*.dll linguist-vendored    # DLLs
-*.lib linguist-vendored    # Libraries
-*.pwn linguist-vendored     # Pawn files
+# Hide C#
+*.cs linguist-vendored
 
-# Exclude any additional unwanted file types
-*.py linguist-vendored     # Python files, if applicable
-*.m linguist-vendored      # MATLAB files, if applicable
-*.cs linguist-vendored     # C# files, if applicable
+# Hide Pawn (if you're not writing it by hand)
+*.pwn linguist-vendored
+*.amx linguist-vendored
+
+# Hide HTML and web stuff
+*.html linguist-vendored
+*.htm linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+
+# Hide others you don't want counted
+*.xml linguist-vendored
+*.json linguist-vendored
+*.md linguist-documentation
+*.svg linguist-vendored
+
+/Generated_Source/** linguist-generated
+codegentemp/**     linguist-generated
+TopDesign/**       linguist-generated
+CortexM3/**        linguist-generated
+ErikaOS_v2_5_3/**  linguist-generated
+
+# Hide other noisy files
+*.cpp linguist-vendored
+*.hpp linguist-vendored
+*.s linguist-vendored
+*.asm linguist-vendored
+*.cs linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.xml linguist-generated
+*.json linguist-generated
+*.md linguist-documentation
+*.ml linguist-generated
